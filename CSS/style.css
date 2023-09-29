@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 100% !important;
+}
+#line{
+    width:5%;
+    height: 2px;
+    margin: auto;
+    background-color: #1080d0;
+    margin-bottom: 10px;
+}
+section{
+    padding:50px 0;
+}
+.header nav{
+    background: transparent !important;
+}
+.container
+{
+    max-width: 1200px ;
+}
+
+.header .navbar .navbar-brand img{
+    width: 180px;
+    color: #fff;
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
+.header .navbar .navbar-nav li a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border-top: 4px solid transparent;
+}
+.header .navbar .navbar-nav li a.active{
+    /* color: #1080d0; */
+    border-top: 4px solid #1080d0;
+    color: #fff;
+}
+.header .navbar .navbar-nav li a:nth-child(7){
+    background-color: #1080d0 !important;
+}
+
+.hero{
+    /* min-height: 100vh; */
+    /* height: 500px; */
+    height: 1200px !important;
+}
+
+.hero .carousel .carousel-inner .carousel-caption {
+    top: 140px;
+}
+.hero .carousel .carousel-inner .carousel-caption h2{
+    font-weight: 800;
+}
+.hero .carousel {
+    position: relative;
+    min-height: 50vh;
+}
+.hero .carousel .carousel-inner .image{
+    position: absolute;
+    /* top: 40px; */
+    bottom: -180px;
+    right: 200px;
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.hero .carousel .carousel-inner .image img{
+    z-index: 99999 !important;
+
+}
+
+.works{
+    padding: 30px;
+}
+.works h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.works p{
+    font-size: 14px;
+}
+.works .card{
+    border: none;
+    padding-top: 20px;
+}
+.works .card i{
+    font-size: 30px;
+    color: #1080d0;
+    line-height: 0.2;
+}
+.works .card h5,
+.works .card p{
+    color:#999999;
+    
+}
+.works .card h5{
+    font-size: 15px;
+}
+.works .card p{
+    font-size: 13px;
+}
+
+.rewards h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100 !important;
+}
+.rewards p{
+    font-size: 13px;
+}
+.rewards .header{
+    font-size: 25px;
+    color: #999999;
+}
+.rewards .card-body{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+.rewards .card-title{
+    color: #999999;
+}
+.rewards .btn{
+    background-color:#1080d0;
+    border: 1px solid #1080d0;
+}
+.rewards .btn:hover{
+    background-color:#179d82;
+    border: 1px solid #179d82;
+}
+.rewards .image img{
+    width: 100%;
+
+}
+.earn
+{
+    background-color: #b3dcd6;
+}
+.earn h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100 !important;
+}
+.earn p{
+    font-size: 13px;
+}
+
+.users{
+    background: url('../images/avatar_all.png');
+    background-color: #1080d098;
+}
+.users .user-say i{
+    font-size: 50px;
+    color: #fff;
+}
+.users .user-say h2{
+    color: #fff;
+}
+.users .user-say p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.contact
+{
+    background: url('../images/word_map.png');
+}
+.contact .container{
+    max-width: 800px !important;
+}
+.contact .details p{
+    font-size: 13px;
+}
+.contact .username{
+    position: relative;
+}
+.contact .user{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transform: translate(50%, -50%);
+}
+.contact .email{
+    position: relative;
+}
+.contact .mail{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -43px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transform: translate(50%, -50%);
+}
+.contact .btn:hover{
+    background-color:#179d82;
+    border: 1px solid #179d82;
+}
+
+@media (max-width:991px){
+    .hero{
+        /* height:
+         */
+         min-height: 50vh;
+    }
+    .hero .carousel{
+        min-height: 500px;
+    }
+}
